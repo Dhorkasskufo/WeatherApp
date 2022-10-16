@@ -1,0 +1,262 @@
+/**body {
+  height: 100vh;
+  width: 100%;
+  background-image: url("images/autumn-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+} **/
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("images/unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.search-engine {
+  display: block;
+  text-align: right;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  padding: 25px;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 50;
+  font-size: 70px;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+
+.location {
+  text-align: center;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+
+.low {
+  position: relative;
+  top: 60px;
+  left: 400px;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+
+.high {
+  position: relative;
+  top: -75px;
+  left: 700px;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+
+.main-image {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.cloudy {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+
+h2 {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+
+.row {
+  position: relative;
+  top: 0;
+  left: -25px;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.mon1,
+.mon2,
+.tue1,
+.tue2,
+.wed1,
+.wed2,
+.thu1,
+.thu2,
+.fri1,
+.fri2 {
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.icons8-sunny {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  left: -560px;
+}
+
+.icons8-sunny2 {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: -90px;
+  right: 385px;
+}
+
+.icons8-rainy-3 {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: -177px;
+  right: 190px;
+}
+
+.icons8-dusk {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: -270px;
+  right: 0px;
+}
+
+.icons8-thunderstorm {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: -355px;
+  left: 185px;
+}
+
+.mon1 {
+  position: relative;
+  left: -60px;
+}
+
+.mon2 {
+  position: relative;
+  top: 2px;
+  right: 5px;
+}
+
+.tue1 {
+  position: relative;
+  top: -85px;
+  right: -120px;
+}
+
+.tue2 {
+  position: relative;
+  top: -86px;
+  right: -170px;
+}
+
+.wed1 {
+  position: relative;
+  top: -174px;
+  right: -320px;
+}
+
+.wed2 {
+  position: relative;
+  top: -175px;
+  right: -385px;
+}
+
+.thu1 {
+  position: relative;
+  top: -263px;
+  right: -510px;
+}
+
+.thu2 {
+  position: relative;
+  top: -263px;
+  right: -570px;
+}
+
+.fri1 {
+  position: relative;
+  top: -350px;
+  right: -685px;
+}
+
+.fri2 {
+  position: relative;
+  top: -350px;
+  right: -740px;
+}
+
+.wind-info {
+  background: #fff;
+  position: relative;
+  padding: 20px;
+  margin-top: -340px;
+  right: 30px;
+}
+
+li,
+strong {
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.current-weather {
+  padding: 10px;
+  list-style: none;
+  position: relative;
+  right: 15px;
+}
+
+.direction {
+  display: block;
+  position: relative;
+  width: 15%;
+  top: -200px;
+  right: -250px;
+  color: black;
+}
+
+.wind {
+  padding: 10px;
+  list-style: none;
+  position: relative;
+  top: -320px;
+  right: -420px;
+}
+
+.clockwise {
+  display: block;
+  position: relative;
+  width: 15%;
+  top: -700px;
+  right: -730px;
+}
+
+footer {
+  position: relative;
+  top: -750px;
+  text-align: center;
+}
+
+footer p:nth-child(1) {
+  font-size: 12px;
+  color: #000000;
+}
+
+footer p:nth-child(2) {
+  font-size: 18px;
+  color: #000000;
+}

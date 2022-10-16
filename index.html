@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="search-engine">
+          <input
+            type="search"
+            id="mySearch"
+            name="q"
+            placeholder="Search for city"
+          />
+          <button type="Search" class="btn btn-primary">Search</button>
+        </div>
+      </form>
+
+      <div class="location">
+        <h1>SWEDEN</h1>
+        <i>"If you are in Sweden is probably raining"</i>
+      </div>
+
+      <div>
+        <p class="low">low</p>
+        <img
+          class="main-image"
+          src="images/icons8-night.png"
+          alt="Cloud image"
+        />
+        <p class="high">high</p>
+        <i class="cloudy">// cloudy</i>
+        <h2>23°</h2>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <div class="col-md-2">MON</div>
+        <div class="col-md-2">TUE</div>
+        <div class="col-md-2">WED</div>
+        <div class="col-md-2">THU</div>
+        <div class="col-md-2">FRI</div>
+      </div>
+
+      <div class="mon">
+        <img
+          class="icons8-sunny"
+          src="images/icons8-sunny.png"
+          alt="sunny cloud image"
+        />
+        <span class="mon1">12°</span>
+        <span class="mon2">20°</span>
+      </div>
+
+      <div class="tue">
+        <img
+          class="icons8-sunny2"
+          src="images/icons8-sunny2.png"
+          alt="sunny cloud image"
+        />
+        <span class="tue1">10°</span>
+        <span class="tue2">18°</span>
+      </div>
+
+      <div class="wed">
+        <img
+          class="icons8-rainy-3"
+          src="images/icons8-rainy-3.png"
+          alt="rainy icon"
+        />
+        <span class="wed1">8°</span>
+        <span class="wed2">10°</span>
+      </div>
+
+      <div class="thu">
+        <img
+          class="icons8-dusk"
+          src="images/icons8-dusk.png"
+          alt="cloud iconn"
+        />
+        <span class="thu1">5°</span>
+        <span class="thu2">12°</span>
+      </div>
+
+      <div class="fri">
+        <img
+          class="icons8-thunderstorm"
+          src="images/icons8-thunderstorm.png"
+          alt="stormy icon"
+        />
+        <span class="fri1">12°</span>
+        <span class="fri2">26°</span>
+      </div>
+
+      <div class="wind-info">
+        <button type="Search" class="btn btn-secondary">Current</button>
+        <ul class="current-weather">
+          <li>Humidity: <strong>47%</strong></li>
+          <li>Visibility: <strong>Moderate</strong></li>
+          <li>Chance of rain: <strong>70%</strong></li>
+          <li>Precipitation: <strong>4mm</strong></li>
+        </ul>
+      </div>
+
+      <div>
+        <img class="direction" src="images/vector-wind-direction.jpg" alt="" />
+        <span>
+          <ul class="wind">
+            <li>Wind Direction <strong>SW</strong></li>
+            <li>Wind Speed <strong>23mph</strong></li>
+          </ul>
+        </span>
+      </div>
+
+      <div class="clockwise">
+        <img src="images/icons-clock.png" alt="" />
+      </div>
+
+      <footer>
+        <p>Gbemisola Dorcas</p>
+        <p>Copyright & copy 2022. | All Right Reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
